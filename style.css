@@ -1,0 +1,36 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+
+#main-header img{
+    width: 100%;
+    height: 100%;
+}
+
+#main-header .bg-black{
+    color: white;
+    background-color: black;
+    font-size: large;
+}
+
+#main-header .menu-item{
+    width: 30%;
+}
+
+#main-header .menu-item:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media (max-width:460px){
+    #main-header .menu-item{
+        width: 25%;
+    }
+}
+
+@media (max-width:400px){
+    #main-header .menu-item span{
+        visibility: hidden;
+    }
+}
