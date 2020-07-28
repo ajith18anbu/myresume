@@ -29,8 +29,9 @@ body{
     }
 }
 
-@media (max-width:400px){
+@media (max-width:450px){
     #main-header .menu-item span{
-        visibility: hidden;
+        font-size: 0.55555rem;
+        font-weight: 500;
     }
 }
